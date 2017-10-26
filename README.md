@@ -15,7 +15,7 @@ use TimeNormalize\Filter\Time as TimeFilter;
 
 $validator = new TimeValidator;
 echo $validator->isValid('12:34am'); // true
-echo $validator->isValid('12:34am'); // false
+echo $validator->isValid('12:34jm'); // false
 
 $filter = new TimeFilter;
 echo $filter->filter('12:34 am'); // '00:34'
