@@ -1,6 +1,8 @@
 # TimeNormalize
 A basic validator and filter for time input.
 
+[![Build Status](https://travis-ci.org/dillchuk/TimeNormalize.svg?branch=master)](https://travis-ci.org/dillchuk/TimeNormalize)
+
 ## Installation
 
 You may install in your ZendFramework app by adding to your `modules.config.php` the following:
