@@ -21,7 +21,7 @@ class Time extends AbstractValidator {
      * @var array
      */
     protected $options = [
-        'formats' => ['H', 'H:i', 'h:i a'],
+        'formats' => ['H', 'Hi', 'H:i', 'h:i a'],
     ];
 
     /**

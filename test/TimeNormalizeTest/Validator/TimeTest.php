@@ -31,7 +31,6 @@ class TimeTest extends \PHPUnit_Framework_TestCase {
             ['0:0'],
             ['1: am'],
             ['12:34 JM'],
-            ['1200'],
             ['12 34 AM'],
             ['1 1 1'],
             ['12 12 12'],
@@ -69,6 +68,9 @@ class TimeTest extends \PHPUnit_Framework_TestCase {
             ['5:55 pm'],
             ['12:00 am'],
             ['12:00 pm'],
+            ['1200'],
+            ['2359'],
+            ['0056'],
             ['1200', ['Hi']],
         ];
     }

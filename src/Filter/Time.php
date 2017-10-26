@@ -19,7 +19,7 @@ class Time extends AbstractFilter {
     /**
      * @var array of strings
      */
-    protected $formatsIn = ['H', 'H:i', 'h:i a'];
+    protected $formatsIn = ['H', 'Hi', 'H:i', 'h:i a'];
 
     /**
      * Allowed options are
