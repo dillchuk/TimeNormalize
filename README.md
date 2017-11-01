@@ -5,6 +5,8 @@ A basic validator and filter for time input.
 
 ## Installation
 
+Install with `composer require illchuk/time-normalize`.
+
 You may install in your ZendFramework app by adding to your `modules.config.php` the following:
 ~~~
 return [..., 'TimeNormalize' ,...]; // validator and filter both called 'Time'
